@@ -65,7 +65,7 @@ function App() {
                 hasScrolled ? 'text-earth-500' : 'text-white'
               }`}
             >
-              Giannitsis
+              Γιαννίτσης
             </motion.span>
             
             <div className="hidden md:flex space-x-8">
@@ -138,7 +138,7 @@ function App() {
                 transition={{ delay: 0.7 }}
                 className="text-5xl md:text-7xl font-display text-white mb-6 text-shadow leading-tight"
               >
-                Nurturing Life Through Quality Care
+                Δίνουμε Ζωή μέσα από την Ποιοτική Φροντίδα
               </motion.h1>
               <motion.p 
                 initial={{ opacity: 0, y: 20 }}
@@ -146,7 +146,7 @@ function App() {
                 transition={{ delay: 0.9 }}
                 className="text-xl text-white mb-8 max-w-xl leading-relaxed"
               >
-                Premium animal feed and veterinary solutions, serving our community since 1985
+                Ποιοτική διατροφή & κτηνιατρικές λύσεις για τα ζώα σας από το 1985
               </motion.p>
               <motion.div 
                 initial={{ opacity: 0, y: 20 }}
@@ -160,14 +160,14 @@ function App() {
                   className="bg-sage-500 text-white px-8 py-4 rounded-full inline-flex items-center transition-all duration-300 hover:bg-sage-600 shadow-lg hover:shadow-xl"
                 >
                   <Phone className="w-5 h-5 mr-2" />
-                  Call Now
+                  Καλέστε τώρα
                 </motion.a>
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   onClick={() => scrollToSection('products')}
                   className="bg-white text-earth-500 px-8 py-4 rounded-full inline-flex items-center transition-all duration-300 hover:bg-earth-100 shadow-lg hover:shadow-xl"
                 >
-                  View Products
+                  Προϊόντα
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </motion.button>
               </motion.div>
@@ -193,8 +193,8 @@ function App() {
                 />
               </div>
               <div className="absolute -bottom-8 -right-8 bg-sage-500 text-white p-8 rounded-full rotate-hover">
-                <p className="text-2xl font-display">35+ Years</p>
-                <p className="text-sm">of Excellence</p>
+                <p className="text-2xl font-display">35+ Χρόνια</p>
+                <p className="text-sm">Εμπειρίας</p>
               </div>
             </motion.div>
             
@@ -205,7 +205,7 @@ function App() {
                 viewport={{ once: true }}
                 className="text-4xl font-display text-earth-500"
               >
-                Our Story
+                Η Ιστορία μας
               </motion.h2>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -214,9 +214,8 @@ function App() {
                 transition={{ delay: 0.2 }}
                 className="text-lg text-earth-400"
               >
-                Since 1985, we've been more than just suppliers – we're partners in your animals' wellbeing. 
-                Our deep understanding of animal nutrition and health has made us the trusted choice for 
-                farmers and pet owners throughout Varda and beyond.
+                Από το 1985, δεν είμαστε απλώς προμηθευτές – είμαστε σύμμαχοι στην ευεξία των ζώων σας.
+Η βαθιά μας γνώση στη διατροφή και την υγεία των ζώων μάς έχει καθιερώσει ως την αξιόπιστη επιλογή για κτηνοτρόφους και ιδιοκτήτες κατοικιδίων στη Βάρδα και πέρα από αυτή.
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -225,8 +224,7 @@ function App() {
                 transition={{ delay: 0.3 }}
                 className="text-lg text-earth-400"
               >
-                We combine traditional wisdom with modern science to provide the highest quality feed 
-                and veterinary solutions, ensuring your animals thrive under your care.
+                Συνδυάζουμε την παραδοσιακή γνώση με τη σύγχρονη επιστήμη για να προσφέρουμε ζωοτροφές και κτηνιατρικές λύσεις κορυφαίας ποιότητας, εξασφαλίζοντας την ευημερία των ζώων σας υπό τη δική σας φροντίδα.
               </motion.p>
             </div>
           </div>
@@ -241,7 +239,7 @@ function App() {
             viewport={{ once: true }}
             className="text-4xl font-display text-earth-500 text-center mb-16"
           >
-            Our Products
+            Προϊόντα
           </motion.h2>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -301,26 +299,26 @@ function App() {
                 <Star key={i} className="w-8 h-8 text-sage-500 fill-current" />
               ))}
             </div>
-            <h2 className="text-4xl font-display text-earth-500">Trusted by Many</h2>
-            <p className="text-xl text-earth-400">Over 110+ satisfied customers</p>
+            <h2 className="text-4xl font-display text-earth-500">Επιλογή εμπιστοσύνης για πολλούς</h2>
+            <p className="text-xl text-earth-400">Πάνω από 500 ικανοποιημένοι πελάτες & συνεργάτες</p>
           </motion.div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                text: "Their expertise and quality products have transformed our farm's productivity.",
-                author: "George K.",
-                role: "Dairy Farmer"
+                text: "Η εξειδίκευση και τα ποιοτικά τους προϊόντα έχουν μεταμορφώσει την παραγωγικότητα της φάρμας μας.",
+                author: "Γιώργος K.",
+                role: "Κτηνοτρόφος"
               },
               {
-                text: "Exceptional service and knowledge. Always reliable for our pets' needs.",
-                author: "Maria P.",
-                role: "Pet Owner"
+                text: "Εξαιρετική εξυπηρέτηση και γνώση. Πάντα αξιόπιστοι για τις ανάγκες των κατοικιδίων μας.",
+                author: "Μαρία Π.",
+                role: "Ιδιοκτήτης Σκύλων"
               },
               {
-                text: "The best animal feed supplier in the region. Highly recommended.",
-                author: "Andreas M.",
-                role: "Livestock Farmer"
+                text: "Ο καλύτερος προμηθευτής ζωοτροφών στην περιοχή. Τον συνιστώ ανεπιφύλακτα.",
+                author: "Ανδρέας Μ.",
+                role: "Κτηνοτρόφος/Αγρότης"
               }
             ].map((review, index) => (
               <motion.div
