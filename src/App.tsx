@@ -391,15 +391,15 @@ function App() {
               viewport={{ once: true }}
               className="bg-white/10 p-8 rounded-3xl backdrop-blur-sm"
             >
-              <h2 className="text-4xl font-display mb-8">Get in Touch</h2>
+              <h2 className="text-4xl font-display mb-8">Επικοινωνήστε μαζί μας</h2>
               <form className="space-y-6">
                 <div>
-                  <label htmlFor="name" className="block text-sm mb-2">Name</label>
+                  <label htmlFor="name" className="block text-sm mb-2">Ονοματεπώνυμο</label>
                   <input
                     type="text"
                     id="name"
                     className="w-full px-4 py-3 rounded-xl bg-white/20 backdrop-blur-sm border border-white/30 focus:outline-none focus:border-white"
-                    placeholder="Όνομα"
+                    placeholder="Γράψτε το όνομά σας"
                   />
                 </div>
                 <div>
@@ -408,16 +408,16 @@ function App() {
                     type="email"
                     id="email"
                     className="w-full px-4 py-3 rounded-xl bg-white/20 backdrop-blur-sm border border-white/30 focus:outline-none focus:border-white"
-                    placeholder="email"
+                    placeholder="Email"
                   />
                 </div>
                 <div>
-                  <label htmlFor="message" className="block text-sm mb-2">Message</label>
+                  <label htmlFor="message" className="block text-sm mb-2">Μήνυμα</label>
                   <textarea
                     id="message"
                     rows={4}
                     className="w-full px-4 py-3 rounded-xl bg-white/20 backdrop-blur-sm border border-white/30 focus:outline-none focus:border-white"
-                    placeholder="Μήνυμα"
+                    placeholder="Γράψτε το μήνυμά σας"
                   />
                 </div>
                 <motion.button
