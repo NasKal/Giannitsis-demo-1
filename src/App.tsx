@@ -246,18 +246,18 @@ function App() {
             {[
               {
                 icon: Package,
-                title: "Livestock Feed",
-                items: ["Cattle Feed", "Sheep Feed", "Poultry Feed", "Custom Mixes"]
+                title: "Τροφές",
+                items: ["Βοοηδεί", "Πρόβατα", "Πουλερικά", "Προσαρμοσμένα μείγματα"]
               },
               {
                 icon: Heart,
-                title: "Pet Care",
-                items: ["Dog Food", "Cat Food", "Supplements", "Accessories"]
+                title: "Φροντίδα Κατοικιδίων",
+                items: ["Σκυλοτροφές", "Γατοτροφές", "Συμπληρώματα", "Αξεσουάρ & Παιχνίδια"]
               },
               {
                 icon: ShieldCheck,
-                title: "Veterinary",
-                items: ["Medicines", "Vaccines", "First Aid", "Health Care"]
+                title: "Κτηνιατρική",
+                items: ["Φάρμακα", "Εμβόλια", "Πρώτες Βοήθειες", "Υγεία"]
               }
             ].map((category, index) => (
               <motion.div
@@ -358,7 +358,7 @@ function App() {
               <div className="space-y-4">
                 <p className="flex items-center gap-3">
                   <MapPin className="w-6 h-6" />
-                  Agiou Nikolaou 42, Varda 270 52, Greece
+                  Αγίου Νικολάου 42, Βάρδα 270 52
                 </p>
                 <p className="flex items-center gap-3">
                   <Phone className="w-6 h-6" />
@@ -368,7 +368,7 @@ function App() {
                 </p>
                 <p className="flex items-center gap-3">
                   <Clock className="w-6 h-6" />
-                  Open until 9:00 PM
+                  Ανοιχτά έως τις 21:00
                 </p>
               </div>
               <div className="h-[400px] rounded-3xl overflow-hidden">
@@ -399,7 +399,7 @@ function App() {
                     type="text"
                     id="name"
                     className="w-full px-4 py-3 rounded-xl bg-white/20 backdrop-blur-sm border border-white/30 focus:outline-none focus:border-white"
-                    placeholder="Your name"
+                    placeholder="Όνομα"
                   />
                 </div>
                 <div>
@@ -408,7 +408,7 @@ function App() {
                     type="email"
                     id="email"
                     className="w-full px-4 py-3 rounded-xl bg-white/20 backdrop-blur-sm border border-white/30 focus:outline-none focus:border-white"
-                    placeholder="your@email.com"
+                    placeholder="email"
                   />
                 </div>
                 <div>
@@ -417,7 +417,7 @@ function App() {
                     id="message"
                     rows={4}
                     className="w-full px-4 py-3 rounded-xl bg-white/20 backdrop-blur-sm border border-white/30 focus:outline-none focus:border-white"
-                    placeholder="Your message"
+                    placeholder="Μήνυμα"
                   />
                 </div>
                 <motion.button
@@ -425,7 +425,7 @@ function App() {
                   type="submit"
                   className="w-full bg-sage-500 text-white px-8 py-4 rounded-xl font-semibold"
                 >
-                  Send Message
+                  Αποστολή
                 </motion.button>
               </form>
             </motion.div>
@@ -436,8 +436,8 @@ function App() {
       <footer className="bg-earth-500 text-white py-12">
         <div className="container mx-auto px-6">
           <div className="text-center">
-            <h2 className="text-2xl font-display mb-4">Giannitsis Nikolaos</h2>
-            <p className="text-earth-200 mb-8">Your trusted partner in animal nutrition and health since 1985</p>
+            <h2 className="text-2xl font-display mb-4">Γιαννίτσης Νικόλαος</h2>
+            <p className="text-earth-200 mb-8">Ο αξιόπιστος συνεργάτης σας στη διατροφή και την υγεία των ζώων από το 1985</p>
             <p className="text-earth-200">&copy; {new Date().getFullYear()} All rights reserved</p>
           </div>
         </div>
