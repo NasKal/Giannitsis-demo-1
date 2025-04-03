@@ -354,7 +354,7 @@ function App() {
               viewport={{ once: true }}
               className="space-y-8"
             >
-              <h2 className="text-4xl font-display">Visit Us</h2>
+              <h2 className="text-4xl font-display">Επισκευθείτε Μας</h2>
               <div className="space-y-4">
                 <p className="flex items-center gap-3">
                   <MapPin className="w-6 h-6" />
