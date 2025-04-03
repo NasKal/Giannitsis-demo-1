@@ -21,9 +21,9 @@
     clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
   }
 
-  .clip-wave {
+  /*.clip-wave {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
-  }
+  }*/
 
   .text-shadow {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
