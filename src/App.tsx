@@ -65,7 +65,7 @@ function App() {
                 hasScrolled ? 'text-earth-500' : 'text-white'
               }`}
             >
-              Γιαννίτσης
+              Γιαννίτσης Ζωοτροφές - Κτηνιατρικά
             </motion.span>
             
             <div className="hidden md:flex space-x-8">
