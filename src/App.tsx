@@ -69,7 +69,7 @@ function App() {
             </motion.span>
             
             <div className="hidden md:flex space-x-8">
-              {['Σχετικά με εμάς', 'Προϊόντα', 'Reviews', 'Επικοινωνία'].map((section) => (
+              {['Σχετικά με εμάς', 'Προϊόντα', 'Αξιολογήσεις', 'Επικοινωνία'].map((section) => (
                 <motion.button
                   key={section}
                   whileHover={{ scale: 1.05 }}
