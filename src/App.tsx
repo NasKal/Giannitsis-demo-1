@@ -119,7 +119,7 @@ function App() {
         <div 
           className="absolute inset-0 parallax-bg"
           style={{
-            backgroundImage: 'url("https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=85")'
+            backgroundImage: 'url("https://images.unsplash.com/photo-1569858241634-5aee6e47091a?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")'
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/40" />
